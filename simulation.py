@@ -52,7 +52,9 @@ end_B = "B"
 
 print('start venue business?', start_B == "B")
 print('end venue business?', end_B == "B")
-    
+
+# Note that some coding ideas may look redundant. They in fact supports faster
+# simulation speed on the specific cloud service used by the author.
 while done_movement_count < num_movements:
     if start_B == 'B':
         start_id = random_choice(venue_ids_b)
